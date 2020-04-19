@@ -1,5 +1,5 @@
 import Vue from "vue";
-import Drager from "./Drager.vue";
+import Titleba from "./Titlebar.vue";
 
 // 暂时停用这个组件
 // Vue.component("MonacoEditor", MonacoEditor);
@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 Vue.component("FAIcon", FontAwesomeIcon);
 Vue.component("FontAwesomeIcon", FontAwesomeIcon);
-Vue.component("Drager", Drager);
+Vue.component("Titleba", Titleba);
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 

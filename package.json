@@ -6,7 +6,7 @@
   "scripts": {
     "serve:electron": "cross-env TS_NODE_PROJECT=\"scripts/webpack/tsconfig.json\" webpack --config scripts/webpack/webpack.config.ts --watch --mode development",
     "serve:vue": "vue-cli-service serve",
-    "serve": "concurrently \"npm run serve:vue\" \"npm run serve:electron\"",
+    "serve": "concurrently \"npm run serve:vue\" \"npm run dev:tools\" \"npm run serve:electron\"",
     "dev:tools": "vue-devtools",
     "build:vue": "vue-cli-service build",
     "build:backend": "cross-env TS_NODE_PROJECT=\"scripts/webpack/tsconfig.json\" webpack --config scripts/webpack/webpack.config.ts --mode production",

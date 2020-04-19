@@ -12,7 +12,7 @@
 </style>
 <template>
   <section class="the-layout">
-    <Drager></Drager>
+    <Titleba></Titleba>
     <router-view class="the-container"></router-view>
   </section>
 </template>
