@@ -3,7 +3,7 @@ import VueRouter, { RouteConfig } from "vue-router";
 import TheLayout from "@/TheLayout.vue";
 import TheAppLayout from "@/views/TheAppLayout.vue";
 
-import Home from "@/views/Calendar/Index.vue";
+import Home from "@/views/Home/Index.vue";
 
 Vue.use(VueRouter);
 

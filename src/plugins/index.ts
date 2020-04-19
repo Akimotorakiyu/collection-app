@@ -11,5 +11,3 @@ import VueCompositionApi from "@vue/composition-api";
 Vue.use(VueCompositionApi);
 
 // export { router, store, apolloProvider };
-
-import "./filter";

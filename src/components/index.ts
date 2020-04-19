@@ -1,5 +1,3 @@
-import "@/components/elementUi";
-
 import Vue from "vue";
 import Drager from "./Drager.vue";
 

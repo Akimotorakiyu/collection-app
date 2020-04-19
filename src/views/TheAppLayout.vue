@@ -17,9 +17,7 @@
 </style>
 <template>
   <section class="the-app-layout">
-    <section>
-      <TopNav></TopNav>
-    </section>
+    <section></section>
     <section class="the-container">
       <router-view></router-view>
     </section>
@@ -28,12 +26,9 @@
 
 <script>
 // @ is an alias to /src
-import TopNav from "./TopNav.vue";
 
 export default {
   name: "TheAppLayout",
-  components: {
-    TopNav
-  }
+  components: {}
 };
 </script>

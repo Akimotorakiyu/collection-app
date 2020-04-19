@@ -27,12 +27,7 @@ function errorhandle(error: AxiosError) {
         .concat(error.response.data.msg)
         .map((ele, index) => `${index + 1}. ${ele};`)
         .join("\n");
-
-    app.$notify({
-      type: "error",
-      title: "错误",
-      message
-    });
+    console.log(message);
   }
   throw error;
 }
