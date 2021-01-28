@@ -45,7 +45,7 @@
     "concurrently": "^5.1.0",
     "core-js": "^3.6.4",
     "cross-env": "^7.0.2",
-    "electron": "^8.1.1",
+    "electron": "^9.4.0",
     "electron-builder": "^22.3.6",
     "electron-reinstall": "^0.2.0",
     "husky": "^4.2.3",
